@@ -13,7 +13,7 @@ namespace Music_pleer
 {
     public partial class Form1 : Form
     {
-        SoundPlayer player = null;
+        SoundPlayer playeer = null;
         string fileName = string.Empty;
         public Form1()
         {
@@ -22,12 +22,12 @@ namespace Music_pleer
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            player = new SoundPlayer();
+            playeer = new SoundPlayer();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            player.Stop();
+            playeer.Stop();
         }
 
         private void button2_Click(object sender, EventArgs e)
