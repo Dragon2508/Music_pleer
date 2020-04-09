@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E1B7728C-1212-4777-94B8-AD46904292EF}</ProjectGuid>
+    <ProjectGuid>{9161FA47-200D-40FD-8F9F-70421F5E1443}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>Music_pleer</RootNamespace>
     <AssemblyName>Music_pleer</AssemblyName>
